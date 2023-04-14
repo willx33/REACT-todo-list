@@ -7,13 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "heroku-postbuild": "npm run build",
-    "start": "vite preview --port $PORT",
+    "start": "serve -s dist",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "serve": "^14.2.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
